@@ -4,7 +4,7 @@
 
 ## Integrantes del equipo
 
-Marcos Simón Romay @marcosss
+Marcos Simón Romay @marcossssss
 Carlos Loarte Hernández @loarte
 
 ## Objetivos del trabajo
