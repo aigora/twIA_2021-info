@@ -6,6 +6,7 @@
 
 Marcos Simón Romay @marcossssss
 Carlos Loarte Hernández @loarte
+Natalia Joueidi Mashlab @nataliaaaajm
 
 ## Objetivos del trabajo
 
