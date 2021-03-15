@@ -7,6 +7,7 @@
 Marcos Simón Romay @marcossssss
 Carlos Loarte Hernández @loarte
 Natalia Joueidi Mashlab @nataliaaaajm
+María castro De la Villa @mariacdl
 
 ## Objetivos del trabajo
 
