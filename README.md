@@ -1,10 +1,11 @@
-# [Título del trabajo]
+# Registro CoVid-19 y vacunaciones
 
 [Descripción breve del proyecto a realizar (2-3 frases).]
 
 ## Integrantes del equipo
 
-[Nombres, apellidos, y usuario GitHub de los integrantes del equipo.]
+Marcos Simón Romay @marcosss
+Carlos Loarte Hernández @loarte
 
 ## Objetivos del trabajo
 
