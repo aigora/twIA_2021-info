@@ -9,7 +9,7 @@ Carlos Loarte Hernández @loarte
 
 Natalia Joueidi Mashlab @nataliaaaajm
 
-María castro De la Villa @mariacdl
+María Castro De la Villa @mariacdl
 
 ## Objetivos del trabajo
 
