@@ -57,6 +57,16 @@ void setup(void) {
 }
 
 void loop() {
+
+  int ledPin = 5, aciertos;
+  
+  if (aciertos++){
+    
+    digitalWrite(ledPin, HIGH);
+    delay(1000);
+  }
+  else digitalWrite(ledPin, LOW);
+ 
   tft.invertDisplay(true);
   delay(500);
   tft.invertDisplay(false);
