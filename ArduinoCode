@@ -1,0 +1,64 @@
+#include <Adafruit_GFX.h>    // Core graphics library
+#include <Adafruit_ST7735.h> // Hardware-specific library for ST7735
+#include <SPI.h>
+
+#define TFT_CS        10
+#define TFT_RST        9
+#define TFT_DC         8
+#define TFT_MOSI 11  // Data out
+#define TFT_SCLK 13  // Clock out
+
+Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
+
+void setup(void) {
+
+  int intentos;
+  
+  Serial.begin(9600);
+  
+  tft.initR(INITR_BLACKTAB);      // Init ST7735S chip, black tab
+
+  switch (intentos) {
+
+    case 0:
+      Serial.print("\n     _______\n    |       |\n    |\n    |\n    |\n    |\n    |\n ----------");
+    break;
+    case 1:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |\n    |\n    |\n    |\n ----------");
+    break;
+    case 2:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |       |\n    |\n    |\n    |\n ----------");
+    break;
+    case 3:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |      /|\n    |\n    |\n    |\n ----------");
+    break;
+    case 4:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |      /|");
+      Serial.print("\\");
+      Serial.print("\n");
+      Serial.print("    |\n    |\n    |\n ----------");
+    break;
+    case 5:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |      /|");
+      Serial.print("\\");
+      Serial.print("\n");
+      Serial.print("    |      /\n    |\n    |\n ----------");
+    break;
+    case 6:
+      Serial.print("\n     _______\n    |       |\n    |       0\n    |      /|");
+      Serial.print("\\");
+      Serial.print("\n");
+      Serial.print("    |      / ");
+      Serial.print("\\");
+      Serial.print("\n");
+      Serial.print("    |\n    |\n ----------");
+    break;
+  } ST77XX_WHITE;
+}
+
+void loop() {
+  tft.invertDisplay(true);
+  delay(500);
+  tft.invertDisplay(false);
+  delay(500);
+}
